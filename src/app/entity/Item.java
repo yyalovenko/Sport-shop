@@ -17,6 +17,6 @@ public class Item {
 
     public String toString() {
         return "Item: " + this.name + ", " +
-                "Color: " + this.color + ", Brand: " + this.brand + ", Cost: " + this.cost;
+                "Color: " + this.color + ", Brand: " + this.brand.getName() + ", Cost: " + this.cost;
     }
 }
