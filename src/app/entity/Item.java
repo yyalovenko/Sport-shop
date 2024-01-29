@@ -4,7 +4,7 @@ public class Item {
 
     protected String name;
     private final String color;
-    protected String brand;
+    protected Brand brand;
     protected double cost;
 
     public Item (String color) {

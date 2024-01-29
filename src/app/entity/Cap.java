@@ -5,6 +5,6 @@ public class Cap extends Item {
         super(color);
         this.cost = 1.30;
         this.name = "Cap";
-        this.brand = "Smart Caps";
+        this.brand = new Brand ("Smart Caps");
     }
 }
